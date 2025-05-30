@@ -1,0 +1,73 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+@import url("components/avatar.css");
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body {
+ font-family: "Lexend Zetta", sans-serif;
+  background-image: url("../images/angelic.jpg"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  font-size: 18px;
+  margin: 0px;
+}
+
+h1{
+font-family: "Playfair Display", serif;
+font-size: 65px;
+margin-bottom: 8px;
+text-align: center;
+}
+
+h2 {
+ font-family: "Lexend Zetta", sans-serif;
+ font-weight: 300;
+ font-size: 21px;
+ margin-top: 5px;
+margin-bottom: 29px ;
+text-align: center;
+
+}
+
+.container h3, .container p, .container img, .container .btn, .container .card {
+  margin-bottom: 30px;
+}
+
+h3 {
+font-family: "Playfair Display", serif;
+font-size: 33px;
+color: #780109;
+
+}
+
+
+@media (max-width: 960px)
+.container{
+width: 690px;
+}
+
+@media (max-width: 720px) 
+.container{
+width: 500px;
+margin: 30px auto;
+padding: 25px;
+
+}
+
+@media (max-width: 540px)
+.container{
+width: 300px;
+margin:20px auto;
+padding:20px;
+ }
+
+ a {
+text-decoration: none;
+
+ }

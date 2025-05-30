@@ -1,0 +1,20 @@
+.banner {
+  background-image: url(../../images/Unknown-53.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 150px 0px;
+  text-align: justify;          
+  display: flex;
+  justify-content: center;       
+  align-items: center;
+  height: 400px;
+}
+
+.banner .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 40px;
+  text-align: justify;
+}
